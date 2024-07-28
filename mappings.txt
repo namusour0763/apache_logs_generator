@@ -1,0 +1,16 @@
+PUT /apache_logs
+{
+  "mappings": {
+    "properties": {
+      "@timestamp": { "type": "date" },
+      "host": { "type": "ip" },
+      "user": { "type": "keyword" },
+      "code": { "type": "integer" },
+      "size": { "type": "long" },
+      "referrer": { "type": "keyword" },
+      "agent": { "type": "text" },
+      "method": { "type": "keyword" },
+      "path": { "type": "keyword" }
+    }
+  }
+}
