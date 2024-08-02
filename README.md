@@ -2,12 +2,6 @@
 
 apache のダミーログ（アクセスログ）を出力・転送・分析するレポジトリ。
 
-## 関連ドキュメント
-
-- [OpenSearch Service でログ分析入門！](https://zenn.dev/teradatky/articles/opensearch-log-analysis-20240712)
-- [Apache のダミーログを作る！](https://zenn.dev/teradatky/articles/generate-apache-dummy-log-20240711)
-- [ElasticSearch/Kibanaのトラブルシュート＆Tips](https://zenn.dev/teradatky/articles/elasticsearch-tips-20240711)
-
 ## ログ生成
 
 ```bash
